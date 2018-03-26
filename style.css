@@ -1,0 +1,93 @@
+html { font-size: 62.5%; }
+i[class^="icon-"], span[class^="icon-"] { display: inline-block; background-repeat: no-repeat; background-position: center; }
+a, a:hover, a:focus { -webkit-transition: all 0.2s; transition: all 0.2s; text-decoration: none; }
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+body ul { list-style: none; }
+.img-responsive{max-width: 100%; height: auto; display: block;}
+
+#ccm-account-menu-container { display: none; }
+#ccm-layouts-edit-mode .row { display: block; }
+#ccm-layouts-edit-mode div[class^="col-sm"] { max-width: 100%; float: left; }
+#ccm-layouts-edit-mode .col-sm-12 {   width: 100%}
+#ccm-layouts-edit-mode .col-sm-11 {   width: 91.66666667%}
+#ccm-layouts-edit-mode .col-sm-10 {   width: 83.33333333%}
+#ccm-layouts-edit-mode .col-sm-9 {    width: 75%}
+#ccm-layouts-edit-mode .col-sm-8 {    width: 66.66666667%}
+#ccm-layouts-edit-mode .col-sm-7 {    width: 58.33333333%}
+#ccm-layouts-edit-mode .col-sm-6 {    width: 50%}
+#ccm-layouts-edit-mode .col-sm-5 {    width: 41.66666667%}
+#ccm-layouts-edit-mode .col-sm-4 {    width: 33.33333333%}
+#ccm-layouts-edit-mode .col-sm-3 {    width: 25%}
+#ccm-layouts-edit-mode .col-sm-2 {    width: 16.66666667%}
+#ccm-layouts-edit-mode .col-sm-1 {    width: 8.33333333%}
+
+.button {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+	letter-spacing: 1px;
+    padding: 15px 30px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.form-actions button,
+.form-actions input[type="submit"],
+.button.primary {
+	background-color: #145f9d;
+	border: 2px solid #145f9d;
+}
+
+.button.grey {
+	background-color: #444;
+	border: 2px solid #444;
+}
+
+.button.ghost {
+	border: 2px solid #fff;
+}
+
+.form-actions button:hover,
+.form-actions button:focus,
+.form-actions input[type="submit"]:hover,
+.form-actions input[type="submit"]:focus,
+.button:hover,
+.button:focus {
+	color: #fff;
+	background-color: #202020;
+	text-decoration: none;
+	border: 2px solid #202020;
+}
+
+.ienotice {
+	background-color: #3498db;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000000;
+	color: #FFF;
+	padding: 30px;
+}
+
+.ienotice a, .ienotice a:hover, .ienotice a:focus {
+	color: #c4e7ff;
+}
+
+.ienotice i {
+	color:#f1c40f;
+	font-size: 20px;
+	position: relative;
+	top: 2.43px;
+	margin-right: 5px;
+}
+
+body {
+    font-size: 1.8rem;
+    color: #2c2c2c;
+}
