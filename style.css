@@ -23,7 +23,9 @@ body ul { list-style: none; }
 #ccm-layouts-edit-mode .col-sm-2 {    width: 16.66666667%}
 #ccm-layouts-edit-mode .col-sm-1 {    width: 8.33333333%}
 
-.button {
+.button,
+.form-actions input,
+.form-actions button {
     color: #fff;
     display: inline-block;
     text-transform: uppercase;
