@@ -23,6 +23,35 @@ body ul { list-style: none; }
 #ccm-layouts-edit-mode .col-sm-2 {    width: 16.66666667%}
 #ccm-layouts-edit-mode .col-sm-1 {    width: 8.33333333%}
 
+
+html div.alert-success, 
+html div.alert-error, 
+html div.alert-danger {
+    padding: 0 !important;
+    border: none !important;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 10px !important;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+html div.alert-error ul li,
+html div.alert-danger ul li {
+    display: inline-block;
+    margin: 6px;
+}
+
+html div.alert-error,
+html div.alert-danger {
+    background-color: #e84118 !important; 
+}
+
+html div.alert-success {
+    background-color: #44bd32 !important;
+}
+
 .button,
 .form-actions input,
 .form-actions button {
