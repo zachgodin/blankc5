@@ -38,6 +38,7 @@ body ul { list-style: none; }
 	text-decoration: none;
 	border: none;
 	outline: 0;
+	cursor: pointer;
 }
 
 .form-actions button,
