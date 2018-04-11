@@ -1,3 +1,4 @@
+/* General Style Setup */
 html { font-size: 62.5%; }
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
 i[class^="icon-"], span[class^="icon-"] { display: inline-block; background-repeat: no-repeat; background-position: center; }
@@ -6,7 +7,10 @@ a, a:hover, a:focus { -webkit-transition: all 0.2s; transition: all 0.2s; text-d
 .text-right {text-align: right;}
 body ul { list-style: none; }
 .img-responsive{max-width: 100%; height: auto; display: block;}
+@media (min-width: 1200px) { .container { max-width: 1308px; } }
+h1,h2,h3,h4,h5,h6 {font-weight: 400;}
 
+/* Concrete5's column layout builder utilizes Bootstrap 3, which Bootstrap 4 breaks. These fix that */
 #ccm-account-menu-container { display: none; }
 #ccm-layouts-edit-mode .row { display: block; }
 #ccm-layouts-edit-mode div[class^="col-sm"] { max-width: 100%; float: left; }
@@ -23,7 +27,7 @@ body ul { list-style: none; }
 #ccm-layouts-edit-mode .col-sm-2 {    width: 16.66666667%}
 #ccm-layouts-edit-mode .col-sm-1 {    width: 8.33333333%}
 
-
+/* Errors and Success */
 html div.alert-success, 
 html div.alert-error, 
 html div.alert-danger {
@@ -52,6 +56,7 @@ html div.alert-success {
     background-color: #44bd32 !important;
 }
 
+/* Buttons and Input Submits */
 .button,
 .form-actions input,
 .form-actions button {
@@ -98,6 +103,7 @@ html div.alert-success {
 	border: 2px solid #202020;
 }
 
+/* Old browser version notice */
 .ienotice {
 	background-color: #3498db;
 	position: fixed;
@@ -122,6 +128,7 @@ html div.alert-success {
 	margin-right: 5px;
 }
 
+/* Styling starts here */
 body {
     font-size: 1.8rem;
     color: #2c2c2c;
