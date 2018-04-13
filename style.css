@@ -61,6 +61,8 @@ html div.alert-success {
 
 /* Buttons and Input Submits */
 .button,
+button,
+input[type="submit"],
 .form-actions input,
 .form-actions button {
 	color: #fff;
